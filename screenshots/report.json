@@ -1,0 +1,90 @@
+{
+  "consoleLogs": [
+    {
+      "type": "info",
+      "args": [
+        "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools",
+        "font-weight:bold"
+      ]
+    },
+    {
+      "type": "log",
+      "args": [
+        "[HMR] connected"
+      ]
+    },
+    {
+      "type": "info",
+      "args": [
+        "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools",
+        "font-weight:bold"
+      ]
+    },
+    {
+      "type": "log",
+      "args": [
+        "[HMR] connected"
+      ]
+    }
+  ],
+  "backendNetworkCalls": [
+    {
+      "url": "http://127.0.0.1:8000/health",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/health",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/auth/login",
+      "method": "POST"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/organizations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/organizations",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/organizations/2a622d1b-1d86-4a5d-84c3-05678cd58d09/projects",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/organizations/2a622d1b-1d86-4a5d-84c3-05678cd58d09/projects",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/projects/3b40db43-b154-45ea-b56e-34a60d18b5b2/api-keys",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/v1/projects/3b40db43-b154-45ea-b56e-34a60d18b5b2/api-keys",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8000/health",
+      "method": "GET"
+    }
+  ],
+  "screenshots": [
+    "1_overview.png",
+    "2_trace_explorer.png",
+    "3_rag_inspector.png",
+    "4_api_keys.png",
+    "5_api_key_created.png",
+    "6_sdk_quickstart.png",
+    "7_mobile_dashboard.png"
+  ]
+}
